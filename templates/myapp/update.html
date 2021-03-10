@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update</title>
+</head>
+<body>
+	<h3>Update</h3>
+
+	<form method="POST">
+		{% csrf_token %}
+		{{form}}
+		<input type="submit" name="update_task">
+	</form>
+</body>
+</html>
